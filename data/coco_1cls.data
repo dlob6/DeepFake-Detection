@@ -1,0 +1,6 @@
+classes=1
+train=./data/yolo_face_train.txt
+valid=./data/yolo_face_val.txt
+names=data/cocoface.names
+backup=backup/
+eval=coco
