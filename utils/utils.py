@@ -1,3 +1,4 @@
+# code borrowed from https://github.com/ultralytics/yolov3
 import glob
 import os
 import random
@@ -22,7 +23,6 @@ np.set_printoptions(linewidth=320, formatter={'float_kind': '{:11.5g}'.format}) 
 
 # Prevent OpenCV from multithreading (to use PyTorch DataLoader)
 cv2.setNumThreads(0)
-
 
 def floatn(x, n=3):  # format floats to n decimals
     return float(format(x, '.%gf' % n))
