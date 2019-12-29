@@ -1,5 +1,5 @@
+# code borrowed from https://github.com/ultralytics/yolov3
 import numpy as np
-
 
 def parse_model_cfg(path):
     # Parses the yolo-v3 layer configuration file and returns module definitions
