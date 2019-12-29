@@ -18,4 +18,4 @@ For illustration purposes the Model training.ipynb gives an example that uses:
 * A resnet18 pretrained on Imagenet as face analyzer.
 * A simple convnet 2d as STFT analyzer.
 * A fully connected network as frame analyzer.
-* A fully connected network as video analyzer.
+* A fully connected network with self attention as video analyzer.
