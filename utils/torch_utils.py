@@ -1,5 +1,5 @@
+# code borrowed from https://github.com/ultralytics/yolov3
 import torch
-
 
 def init_seeds(seed=0):
     torch.cuda.empty_cache()
@@ -7,7 +7,6 @@ def init_seeds(seed=0):
     torch.cuda.manual_seed(seed)
     torch.cuda.manual_seed_all(seed)
     # torch.backends.cudnn.deterministic = True  # https://pytorch.org/docs/stable/notes/randomness.html
-
 
 def select_device(force_cpu=False, apex=False):
     # apex if mixed precision training https://github.com/NVIDIA/apex
