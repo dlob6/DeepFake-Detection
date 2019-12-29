@@ -1,10 +1,10 @@
+# code borrowed from https://github.com/ultralytics/yolov3
 import torch.nn.functional as F
 
 from utils.parse_config import *
 from utils.utils import *
 
 ONNX_EXPORT = False
-
 
 def create_modules(module_defs, img_size, arc):
     # Constructs module list of layer blocks from module configuration in module_defs
